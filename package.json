@@ -4,7 +4,7 @@
   "description": "A minimalist node based library for manage csv files.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --collectCoverage",
+    "test": "jest --passWithNoTests --collectCoverage && codecov",
     "lint": "eslint --ext \".js\" --ignore-path .gitignore ."
   },
   "keywords": [
