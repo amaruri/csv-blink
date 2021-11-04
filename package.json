@@ -1,0 +1,28 @@
+{
+  "name": "csv-generator",
+  "version": "1.0.0",
+  "description": "A minimalist node based library for manage csv files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --collectCoverage",
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore ."
+  },
+  "keywords": [
+    "node",
+    "csv",
+    "minimalist",
+    "simple",
+    "easy",
+    "library",
+    "javascript"
+  ],
+  "author": "Anuar Maruri",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^25.2.2"
+  }
+}
