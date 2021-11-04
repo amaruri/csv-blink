@@ -1,5 +1,5 @@
 {
-  "name": "csv-generator",
+  "name": "csv-blink",
   "version": "1.0.0",
   "description": "A minimalist node based library for manage csv files.",
   "main": "index.js",
