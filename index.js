@@ -54,7 +54,7 @@ class CSV {
     }
 
     this._validArray(rows, 'Rows')
-    if(this.isFirstColumn()) {
+    if(this._isFirstColumn()) {
       this.headers = [header]
       rows.forEach((row, index) => this.setCell(0, index + 1, row))
     } else {
@@ -66,7 +66,7 @@ class CSV {
 
   addRow (row) {
     this._validArray(row, 'Row')
-    if(this.isFirstRow()) {
+    if(this._isFirstRow()) {
       this.rows = [row]
     } else {
       this.rows.push(row)
@@ -116,11 +116,11 @@ class CSV {
     return this.rows[y]
   }
 
-  isFirstRow () {
+  _isFirstRow () {
     return !this.rows
   }
 
-  isFirstColumn () {
+  _isFirstColumn () {
     return !this.headers
   }
 
